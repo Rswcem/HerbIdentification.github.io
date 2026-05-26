@@ -1,0 +1,124 @@
+:root {
+    --primary: #514036;
+    --secondary: #796155;
+    --neutral: #f8f9fa;
+    --dark: #251d16;
+}
+.logo {
+    width: auto; 
+    height: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px auto; 
+}
+
+.top-logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: all 0.3s ease; 
+}
+
+.top-logo:hover {
+    transform: scale(1.05); 
+}
+
+.top-logo img {
+    height: 80px;
+    object-fit: contain;
+    margin-right: 15px; 
+}
+
+.logo-title {
+    font-size: 28px; 
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px; 
+}
+.login-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contanin-box {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    box-shadow:
+        0 0 6px 2px rgba(0, 0, 0, 0.1),
+
+        -6px 0 10px -2px rgba(0, 0, 0, 0.1),
+
+        6px 0 10px -2px rgba(0, 0, 0, 0.1),
+
+        0 -6px 10px -2px rgba(0, 0, 0, 0.1),
+
+        0 6px 10px -2px rgba(0, 0, 0, 0.1);
+
+}
+
+.box-left {
+    height: 100%;
+    width: 45%;
+    background-image: url(../images/检测区域背景图.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-right {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-title {
+
+}
+
+.form-title-main {
+    font-size: 20px;
+    font-weight: 500;
+}
+.form-title-sub {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.form-item {
+    margin: 8px 0;
+}
+
+.btn-primary {
+    background-color: rgba(59, 130, 246);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    display: block;
+    width: 35px;
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form-item-title {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.form-item-input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 5px;
+    border-radius: 5px;
+}
